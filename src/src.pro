@@ -28,15 +28,3 @@ HEADERS  += \
     qhttpserverrequest.hpp \
     qhttpserverresponse.hpp \
     qhttpserver.hpp
-
-contains(DEFINES, QHTTP_HAS_CLIENT) {
-    SOURCES += \
-        qhttpclientrequest.cpp \
-        qhttpclientresponse.cpp \
-        qhttpclient.cpp
-
-    HEADERS += \
-        qhttpclient.hpp \
-        qhttpclientresponse.hpp \
-        qhttpclientrequest.hpp
-}
